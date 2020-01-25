@@ -1,0 +1,13 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        String abc = new String("Code");
+        int i=0;
+        while(i<abc.length()+1){
+            System.out.print(abc.substring(0,i));
+            i++;
+        }
+    }
+}
